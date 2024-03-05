@@ -2,7 +2,7 @@ import pump from 'pump';
 import { WindowPostMessageStream } from '@metamask/post-message-stream';
 import ObjectMultiplex from 'obj-multiplex';
 import browser from 'webextension-polyfill';
-import PortStream from 'extension-port-stream';
+import PortStream from 'extension-port-stream-1';
 import { obj as createThoughStream } from 'through2';
 import log from 'loglevel';
 
