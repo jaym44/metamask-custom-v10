@@ -1,5 +1,5 @@
 import pump from 'pump';
-import { WindowPostMessageStream } from '@metamask/post-message-stream';
+import { WindowPostMessageStream } from '@metamask/post-message-streams';
 import ObjectMultiplex from 'obj-multiplex';
 import browser from 'webextension-polyfill';
 import PortStream from 'extension-port-stream-1';
