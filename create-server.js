@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+* // For testing only
 const http = require('http');
 const path = require('path');
 
