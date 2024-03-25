@@ -9,7 +9,7 @@ async function start() {
   let betaVersion;
   if (VERSION.includes('beta')) {
     // Remove auto generated stableVersion to achieve bump
-    // You can find the issue here: https://github.com/yarnpkg/berry/issues/4328
+    // You can find the issue here: https://github.com/yarnpkg/berry/issues/4330
     const packageJsonData = JSON.parse(
       await fs.readFile('package.json', 'utf8'),
     );
