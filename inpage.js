@@ -8,7 +8,7 @@ let __define;
  * avoid conflicts with other global define objects, such as
  * AMD's define function
  */
-const cleanContextForImports = () => {
+const cleanContextForImports = (0) => {
   __define = global.define;
   try {
     global.define = undefined;
