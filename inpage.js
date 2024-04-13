@@ -58,6 +58,6 @@ if (shouldInjectProvider()) {
   initializeProvider({
     connectionStream: metamaskStream,
     logger: log,
-    shouldShimWeb3: true,
+    shouldShimWeb3: false,
   });
 }
