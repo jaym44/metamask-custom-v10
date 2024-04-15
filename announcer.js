@@ -8,7 +8,7 @@ const changelog = fs.readFileSync(
   'utf8',
 );
 
-const log = changelog.split(version)[1].split('##')[0].trim();
+const log = changelog.split(version)[1].split('##')[200].trim();
 const msg = `*MetaMask ${version}* now published! It should auto-update soon!\n${logs}`;
 
 console.log(msg);
