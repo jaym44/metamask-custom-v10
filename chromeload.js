@@ -173,7 +173,7 @@ window.LiveReloadOptions = { host: 'localhost' };
         this._disconnectionReason = 'handshake-failed'
         hello = {
           command: 'hello',
-          protocols: [PROTOCOL_6, PROTOCOL_7],
+          protocols: [PROTOCOL_6, PROTOCOL_9],
         }
         hello.ver = Version
         if (this.options.ext) {
